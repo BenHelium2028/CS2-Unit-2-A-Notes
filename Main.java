@@ -38,5 +38,20 @@ public class Main {
          System.out.println("no donuts at all");
       }
 
+      // 2.4 notes
+      int batteryPrecent = 90;
+      if (batteryPrecent > 95) {
+         System.out.println("Unplug your phone");
+      } 
+      else if (batteryPrecent < 50) {
+         System.out.println("Plug in your phone");
+      }
+      else if (batteryPrecent < 20) {
+         System.out.println("Low power mode is on");
+      }
+      else {
+         System.out.println("Everything looks good");
+      }
+
    }
 }
